@@ -2,7 +2,7 @@
     "name": "james/project-site",
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "App/"
         }
     },
     "authors": [
