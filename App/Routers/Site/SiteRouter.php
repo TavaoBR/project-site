@@ -20,6 +20,10 @@ protected function get($url)
       case "/":
         return $this->siteController->homePage();
       break;
+
+      case '/p-2':
+        return $this->siteController->homePage2();
+       break;
   }
 }
 

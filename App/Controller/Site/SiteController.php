@@ -10,5 +10,10 @@ class SiteController extends TemplateController{
        $this->view("site/principal", ["title" => "Home"]);
     }
 
+    public function homePage2()
+    {
+        echo "Aqui";
+    }
+
 }
 

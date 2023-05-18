@@ -22,6 +22,10 @@ class WebMaster{
           case (isset($site)):
             return $site;
           break;
+
+          default:
+           echo "404";
+          break;
       }
     }
 
